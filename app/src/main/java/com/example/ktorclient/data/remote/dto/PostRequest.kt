@@ -3,9 +3,8 @@ package com.example.ktorclient.data.remote.dto
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class PostResponse(
+data class PostRequest(
     val body: String,
     val title: String,
-    val id: Int,
     val userInt: Int
 )
